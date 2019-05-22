@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ResInfoViewController: KeyboardHandler {
+class ResInfoViewController: KeyboardHandler,onSortingDelegate {
     var titleLabel: String = "Res Info"
     var selectItems:String = ResInfo.restaurants.rawValue
     @IBOutlet weak var resInfoTableView: UITableView!{
@@ -19,6 +19,7 @@ class ResInfoViewController: KeyboardHandler {
             resInfoTableView.dataSource = self
         }
     }
+    var kindSort:Bool = true
     private var vModel: ResInfoViewModel!
     
     override func viewDidLoad() {
@@ -27,6 +28,8 @@ class ResInfoViewController: KeyboardHandler {
         vModel.delegate = self
         vModel.initData()
         vModel.getData(selectedItem: selectItems)
+        titleBarViewController?.delegate = self
+
         // Do any additional setup after loading the view.
     }
     
@@ -34,8 +37,8 @@ class ResInfoViewController: KeyboardHandler {
         super.viewWillAppear(animated)
         UserDefaults.standard.set(titleLabel, forKey: TITLE_VIEW)
         titleBarViewController?.changeLabel(text: "")
-        
-        
+        (children.first as? TitleBarViewController)?.isSorting()
+        (children.first as? TitleBarViewController)?.delegate = self
         
     }
     
@@ -102,6 +105,12 @@ extension ResInfoViewController:UITableViewDelegate{
 
 
 extension ResInfoViewController{
+    
+    func doSorting() {
+        vModel.doSorting(kindSort: kindSort)
+        kindSort = !kindSort
+    }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ResDetialsSegueIdentifier" {

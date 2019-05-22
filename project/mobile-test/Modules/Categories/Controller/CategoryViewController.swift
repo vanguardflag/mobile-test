@@ -21,7 +21,7 @@ class CategoryViewController: KeyboardHandler {
         }
     }
     private var vModel: CategoriesViewModel!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         vModel = CategoriesViewModel()
@@ -35,9 +35,10 @@ class CategoryViewController: KeyboardHandler {
         super.viewWillAppear(animated)
         UserDefaults.standard.set(titleLabel, forKey: TITLE_VIEW)
         titleBarViewController?.changeLabel(text: "")
-        titleBarViewController?.isHome()
-        
-        
+//        titleBarViewController?.isHome()
+//        titleBarViewController?.isSorting()
+        (children.first as? TitleBarViewController)?.isHome()
+     
     }
 
     /*
@@ -118,7 +119,7 @@ extension CategoryViewController{
         if identifier == "" {
             UserDefaults.standard.set(titleLabel, forKey: TITLE_VIEW)
             titleBarViewController?.changeLabel(text: "")
-            
+
             
             return true
         }else{
@@ -131,3 +132,5 @@ extension CategoryViewController{
         }
     }
 }
+
+

@@ -8,17 +8,19 @@
 
 import UIKit
 
+protocol onSortingDelegate: class {
+    func doSorting()
+}
 
 
 class TitleBarViewController: UIViewController {
     
+    @IBOutlet weak var btnSorting: UIButton!
     @IBOutlet weak var titles: UILabel!
     var titleValue:String = ""
    // var delegate : TitleBarVC
     @IBOutlet weak var btnBack: UIButton!
-    
-    
-    
+    weak var delegate:onSortingDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
         changeLabel(text: "")
@@ -37,6 +39,10 @@ class TitleBarViewController: UIViewController {
         btnBack.isHidden = true
     }
     
+    func isSorting() {
+        btnSorting.isHidden = false
+    }
+    
     func changeLabel(text: String) {
         if text == ""{
             titles.text = UserDefaults.standard.string(forKey: TITLE_VIEW)!
@@ -47,7 +53,10 @@ class TitleBarViewController: UIViewController {
     }
     
     
-
+    @IBAction func doSort(_ sender: Any) {
+        self.delegate!.doSorting()
+    }
+    
     /*
     // MARK: - Navigation
 

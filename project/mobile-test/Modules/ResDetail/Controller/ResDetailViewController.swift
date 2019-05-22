@@ -42,7 +42,7 @@ class ResDetailViewController: KeyboardHandler {
         super.viewWillAppear(animated)
         UserDefaults.standard.set(titlePage, forKey: TITLE_VIEW)
         titleBarViewController?.changeLabel(text: "")
-        
+        titleBarViewController?.isSorting()
         
         
     }

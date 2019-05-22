@@ -60,6 +60,20 @@ class ResInfoViewModel: ResInfoViewModelType {
     }
     
     
+    func doSorting(kindSort:Bool) {
+        if ResInfoList != nil{
+            if ResInfoList.count > 0 {
+                if kindSort{
+                ResInfoList = ResInfoList.sorted(by: {$0.title < $1.title})
+                self.delegate?.didLoadData()
+                }else{
+                    ResInfoList = ResInfoList.sorted(by: {$0.title > $1.title})
+                    self.delegate?.didLoadData()
+                }
+            }
+        }
+    }
+    
   
     
 
