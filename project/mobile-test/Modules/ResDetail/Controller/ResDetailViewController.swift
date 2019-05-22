@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MessageUI
 
 class ResDetailViewController: KeyboardHandler {
     var titlePage: String = "Detail Information"
@@ -279,8 +280,115 @@ extension ResDetailViewController:UITableViewDataSource{
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.section == 0{
+            switch indexPath.row{
+            case 3:
+                if let contact = vModel.ResDetail.contactInfo{
+                    var email = contact.email?[0] ?? ""
+                    if email != "" {
+                        let toRecipients = [email]
+                        let subject = "Feedback"
+                        let body = ""
+                        let mail = configuredMailComposeViewController(recipients: toRecipients, subject: subject, body: body, isHtml: true, images: nil)
+                        presentMailComposeViewController(mailComposeViewController: mail)
+                    }
+                }
+                
+            case 4:
+                if let contact = vModel.ResDetail.contactInfo{
+                    var url = contact.website?[0] ?? ""
+                    if url != "" {
+                        
+                        performSegue(withIdentifier: "mapWebSegue", sender: url)
+                        
+                    }
+                }
+            default:
+                print("")
+            }
+           
+        }
+    }
+    
+    
+
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "mapWebSegue" {
+            let extra = sender as? String
+            if let dest = segue.destination  as? WebViewController {
+                dest.url = extra!
+            }
+        }
+    }
+    
+
 }
 
 
 
 
+extension ResDetailViewController : MFMailComposeViewControllerDelegate {
+    
+    func configuredMailComposeViewController(recipients : [String]?, subject :
+        String, body : String, isHtml : Bool = false,
+                images : [UIImage]?) -> MFMailComposeViewController {
+        let mailComposerVC = MFMailComposeViewController()
+        mailComposerVC.mailComposeDelegate = self // IMPORTANT
+        mailComposerVC.setToRecipients(recipients)
+        
+        mailComposerVC.setSubject(subject)
+        mailComposerVC.setMessageBody(body, isHTML: isHtml)
+        
+        for img in images ?? [] {
+            if let jpegData = img.jpegData(compressionQuality: 1.0) {
+                mailComposerVC.addAttachmentData(jpegData,
+                                                 mimeType: "image/jpg",
+                                                 fileName: "Image")
+            }
+        }
+        
+        return mailComposerVC
+    }
+    
+    func presentMailComposeViewController(mailComposeViewController :
+        MFMailComposeViewController) {
+        if MFMailComposeViewController.canSendMail() {
+            self.present(mailComposeViewController,
+                         animated: true, completion: nil)
+        } else {
+//            let sendMailErrorAlert = UIAlertController.init(title: "Error",
+//                                                            message: "Unable to send email. Please check your email " +
+//                "settings and try again.", preferredStyle: .alert)
+//            self.present(sendMailErrorAlert, animated: true,
+//                         completion: nil)
+        }
+    }
+    
+    public func mailComposeController(controller: MFMailComposeViewController,
+                                      didFinishWith result: MFMailComposeResult,
+                                      error: Error?) {
+        switch (result) {
+        case .cancelled:
+            self.dismiss(animated: true, completion: nil)
+        case .sent:
+            self.dismiss(animated: true, completion: nil)
+        case .failed:
+            self.dismiss(animated: true, completion: {
+                let sendMailErrorAlert = UIAlertController.init(title: "Failed",
+                                                                message: "Unable to send email. Please check your email " +
+                    "settings and try again.", preferredStyle: .alert)
+                sendMailErrorAlert.addAction(UIAlertAction.init(title: "OK",
+                                                                style: .default, handler: nil))
+                self.present(sendMailErrorAlert,
+                             animated: true, completion: nil)
+            })
+        default:
+            break;
+        }
+    }
+    
+    
+}

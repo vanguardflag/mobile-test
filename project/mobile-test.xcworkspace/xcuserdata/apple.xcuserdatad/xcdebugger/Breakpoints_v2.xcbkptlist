@@ -104,7 +104,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/Categories/Controller/CategoryViewController.swift"
-            timestampString = "580198976.654382"
+            timestampString = "580205264.3133841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
@@ -120,7 +120,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/Categories/Controller/CategoryViewController.swift"
-            timestampString = "580198976.654474"
+            timestampString = "580205264.3135099"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
@@ -136,7 +136,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/Categories/Controller/CategoryViewController.swift"
-            timestampString = "580198976.654548"
+            timestampString = "580205264.313571"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -247,7 +247,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/Categories/Controller/CategoryViewController.swift"
-            timestampString = "580198976.654672"
+            timestampString = "580205264.313687"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "112"
@@ -263,7 +263,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/ViewModel/ResInfoViewModel.swift"
-            timestampString = "580198976.6559089"
+            timestampString = "580205264.313772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -279,7 +279,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/ViewModel/ResInfoViewModel.swift"
-            timestampString = "580198976.6559711"
+            timestampString = "580205264.31382"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -327,7 +327,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/ViewModel/ResInfoViewModel.swift"
-            timestampString = "580198976.656024"
+            timestampString = "580205264.313861"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -375,7 +375,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/ViewModel/ResInfoViewModel.swift"
-            timestampString = "580198976.656081"
+            timestampString = "580205264.313915"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -391,7 +391,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/ViewModel/ResInfoViewModel.swift"
-            timestampString = "580198976.656142"
+            timestampString = "580205264.313966"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
@@ -407,11 +407,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.656207"
+            timestampString = "580205264.314018"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -423,11 +423,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.656281"
+            timestampString = "580205264.314449"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "ResDetailViewController"
             landmarkType = "3">
             <Locations>
@@ -501,11 +501,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.6563441"
+            timestampString = "580205264.314744"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -517,11 +517,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.6564111"
+            timestampString = "580205264.315029"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
             landmarkName = "tableView(_:heightForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -533,11 +533,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.656478"
+            timestampString = "580205264.315328"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
             landmarkName = "tableView(_:heightForRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -581,23 +581,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.656541"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "fillContactInfo(_:for:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.656598"
+            timestampString = "580205264.315621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "134"
@@ -613,11 +597,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.656654"
+            timestampString = "580205264.315914"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "186"
-            endingLineNumber = "186"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "fillContactInfo(_:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
+            timestampString = "580205264.316208"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
             landmarkName = "fillAddress(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -629,11 +629,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.65671"
+            timestampString = "580205264.316497"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
             landmarkName = "fillBussinesHouse(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -645,11 +645,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.656767"
+            timestampString = "580205264.3167911"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "225"
-            endingLineNumber = "225"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
             landmarkName = "fillBussinesHouse(_:for:)"
             landmarkType = "7">
             <Locations>
@@ -693,7 +693,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/Controller/ResInfoViewController.swift"
-            timestampString = "580198976.6568249"
+            timestampString = "580205264.317119"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "119"
@@ -709,7 +709,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/Controller/ResInfoViewController.swift"
-            timestampString = "580198976.657272"
+            timestampString = "580205264.317212"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "118"
@@ -725,7 +725,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/Controller/ResInfoViewController.swift"
-            timestampString = "580198976.657675"
+            timestampString = "580205264.317289"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "116"
@@ -741,7 +741,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/Controller/ResInfoViewController.swift"
-            timestampString = "580198976.658043"
+            timestampString = "580205264.317353"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "117"
@@ -757,7 +757,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/Controller/ResInfoViewController.swift"
-            timestampString = "580198976.6584049"
+            timestampString = "580205264.3174011"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "128"
@@ -773,7 +773,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/Controller/ResInfoViewController.swift"
-            timestampString = "580198976.658747"
+            timestampString = "580205264.317476"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "135"
@@ -789,7 +789,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/Controller/ResInfoViewController.swift"
-            timestampString = "580198976.6590821"
+            timestampString = "580205264.317556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
@@ -805,7 +805,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResInfo/Controller/ResInfoViewController.swift"
-            timestampString = "580198976.659412"
+            timestampString = "580205264.317613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "102"
@@ -821,11 +821,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.659797"
+            timestampString = "580205264.317669"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
             landmarkName = "fillContactInfo(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -837,11 +837,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.659869"
+            timestampString = "580205264.318056"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "fillContactInfo(_:for:)"
             landmarkType = "7">
             <Locations>
@@ -885,11 +885,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.659925"
+            timestampString = "580205264.318351"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "191"
-            endingLineNumber = "191"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
             landmarkName = "fillAddress(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -901,11 +901,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.659978"
+            timestampString = "580205264.3186359"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
             landmarkName = "fillAddress(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -917,11 +917,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.66003"
+            timestampString = "580205264.3189549"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
             landmarkName = "fillAddress(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -933,11 +933,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.660081"
+            timestampString = "580205264.319464"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "fillContactInfo(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -949,11 +949,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.6601321"
+            timestampString = "580205264.3199379"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "204"
-            endingLineNumber = "204"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
             landmarkName = "fillNotes(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -965,11 +965,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.660182"
+            timestampString = "580205264.320418"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "206"
-            endingLineNumber = "206"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
             landmarkName = "fillNotes(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -981,11 +981,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.660234"
+            timestampString = "580205264.3207181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "210"
-            endingLineNumber = "210"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
             landmarkName = "fillSocialMedia(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -997,11 +997,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.660284"
+            timestampString = "580205264.321021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "226"
-            endingLineNumber = "226"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
             landmarkName = "fillBussinesHouse(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1013,11 +1013,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.6603349"
+            timestampString = "580205264.32131"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "228"
-            endingLineNumber = "228"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
             landmarkName = "fillBussinesHouse(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1029,11 +1029,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.660386"
+            timestampString = "580205264.321592"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "280"
-            endingLineNumber = "280"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
             landmarkName = "fillBussinesHouse(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1045,13 +1045,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/View/ContactInfoTableViewCell.swift"
-            timestampString = "580118656.493188"
+            timestampString = "580205264.321892"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "goWeb(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1061,13 +1061,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/View/ContactInfoTableViewCell.swift"
-            timestampString = "580118656.493865"
+            timestampString = "580205264.321942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "sendEmail(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1077,13 +1077,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/View/ContactInfoTableViewCell.swift"
-            timestampString = "580118656.494185"
+            timestampString = "580205264.321982"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "callPhone(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1093,13 +1093,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/View/ContactInfoTableViewCell.swift"
-            timestampString = "580118656.494571"
+            timestampString = "580205264.322021"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "sendSms(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1125,11 +1125,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.660529"
+            timestampString = "580205264.322091"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
             landmarkName = "fillAddress(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1141,11 +1141,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
-            timestampString = "580198976.660583"
+            timestampString = "580205264.322381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "189"
-            endingLineNumber = "189"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
             landmarkName = "fillAddress(_:for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1163,6 +1163,70 @@
             startingLineNumber = "33"
             endingLineNumber = "33"
             landmarkName = "updateUI(Address:mapVisibility:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
+            timestampString = "580205264.322765"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
+            timestampString = "580205264.323048"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "311"
+            endingLineNumber = "311"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
+            timestampString = "580205264.32332"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mobile-test/Modules/ResDetail/Controller/ResDetailViewController.swift"
+            timestampString = "580205294.282339"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

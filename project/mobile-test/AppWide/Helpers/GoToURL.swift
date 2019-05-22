@@ -39,6 +39,8 @@ class GoToURL {
         
     }
     
+    
+    
     public static func openMaps(address:String) {
         let geocoder = CLGeocoder()
         geocoder.geocodeAddressString(address) { (placemarksOptional, error) -> Void in
@@ -60,3 +62,5 @@ class GoToURL {
         openSafeURL(url: path)
     }
 }
+
+

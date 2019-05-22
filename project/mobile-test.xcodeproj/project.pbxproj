@@ -102,6 +102,7 @@
 		18AA339922902FEE00170220 /* DateConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA335822902FEE00170220 /* DateConvertor.swift */; };
 		18AA339A22902FEE00170220 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA335A22902FEE00170220 /* UserDefaultsService.swift */; };
 		18AA339B22902FEE00170220 /* AlertViewMannager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA335C22902FEE00170220 /* AlertViewMannager.swift */; };
+		18E5C51B229525E900724380 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5C51A229525E900724380 /* WebViewController.swift */; };
 		CBF6C317157A92D293B4BB39 /* Pods_mobile_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA08E82B8868700966D5F0E /* Pods_mobile_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -207,6 +208,7 @@
 		18AA335C22902FEE00170220 /* AlertViewMannager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewMannager.swift; sourceTree = "<group>"; };
 		18AA339D2290311D00170220 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AA339F2290312100170220 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5C51A229525E900724380 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		384A3C7D3D23499CE098F3CC /* Pods-mobile-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-test.debug.xcconfig"; path = "Target Support Files/Pods-mobile-test/Pods-mobile-test.debug.xcconfig"; sourceTree = "<group>"; };
 		58C5AB42036D1B0A6B993602 /* Pods-mobile-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-test.release.xcconfig"; path = "Target Support Files/Pods-mobile-test/Pods-mobile-test.release.xcconfig"; sourceTree = "<group>"; };
 		7EA08E82B8868700966D5F0E /* Pods_mobile_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobile_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -263,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				180D76962292AEE5007FAD7B /* ResDetailViewController.swift */,
+				18E5C51A229525E900724380 /* WebViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -961,6 +964,7 @@
 				18AA336C22902FEE00170220 /* ReachabilityManager.swift in Sources */,
 				18AA338522902FEE00170220 /* UITextFieldExtension.swift in Sources */,
 				187E8976229145BE00487298 /* CategoryResponse.swift in Sources */,
+				18E5C51B229525E900724380 /* WebViewController.swift in Sources */,
 				18AA337222902FEE00170220 /* AgriBaseController.swift in Sources */,
 				187E897F22915AC800487298 /* CategoryFacade.swift in Sources */,
 				18AA337022902FEE00170220 /* DataExtension.swift in Sources */,
